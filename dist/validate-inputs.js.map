@@ -1,0 +1,1 @@
+{"version":3,"file":"validate-inputs.js","sourceRoot":"","sources":["../src/validate-inputs.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,cAAc,CAAC,KAAY;IAE1C,mCAAmC;IACnC,IAAI,KAAK,CAAC,KAAK,CAAC,EAChB;QACC,OAAO,KAAK,CAAC;KACb;SAED;QACC,OAAO,IAAI,CAAC;KACZ;AACF,CAAC"}

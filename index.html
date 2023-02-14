@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="src/style/style.css">
+	<title>Amort table</title>
+</head>
+
+<body>
+	<h1 style="text-align: center; text-transform: uppercase;">Amortization Table</h1>
+	<form >
+		<fieldset id="container" style="display: flex; flex-direction: column;width: 40%;margin: 1em auto;">
+			<p style="text-align: center; font-size: 115%;">Calculate what you will pay each month</p>
+			<div id="principal_div" style="margin: 0.5em; align-self: center;width: 50%;">
+				<label ><b>Loan:</b></label>
+				<input style="width: 100%;" type="text" id="principal" />
+			</div>
+			<div id="interest_div" style="margin: 0.5em; align-self: center;width: 50%;">
+				<label "><b>Interest:</b></label>
+				<input style="width: 100%;" type="text" id="interest" />
+			</div>
+			<div id="temrs_div" style="margin: 0.5em; align-self: center;width: 50%;">
+				<label ><b>Terms:</b></label>
+				<input style="width: 100%;" type="text" id="terms">
+			</div>
+			<div id="btn-div" style="align-self: center;">
+				<button style="cursor:pointer" id="btn-calculate">Calculate</button>
+			</div>
+		</fieldset>
+	</form>
+	<div id="Result" style="display: flex; align-items: center; flex-direction: column; gap: 1em;"></div>
+	<script  type="module"></script>
+
+</body>
+
+</html>
